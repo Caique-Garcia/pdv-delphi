@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/04/14 09:46:50.000.821,=C:\Users\Usuario\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2023/05/20 07:57:08.000.680,=C:\Users\Usuario\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2023/05/20 08:00:36.000.304,C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\view\ProjetoPDV.View.Principal.pas=C:\Users\Usuario\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2023/05/20 08:00:36.000.304,C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\view\ProjetoPDV.View.Principal.dfm=C:\Users\Usuario\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit3.dfm</Transaction>
+    <Transaction>2023/05/20 08:00:53.000.945,C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\ProPDV.dproj=C:\Users\Usuario\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/05/22 08:40:01.000.597,=C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\Unit1.pas</Transaction>
+    <Transaction>2023/05/22 08:40:27.000.886,C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\Unit1.pas=C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\view\ProPDV.View.Login.pas</Transaction>
+    <Transaction>2023/05/22 08:40:27.000.886,C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\Unit1.dfm=C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\view\ProPDV.View.Login.dfm</Transaction>
+    <Transaction>2023/05/25 12:16:44.000.292,=C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\Unit1.pas</Transaction>
+    <Transaction>2023/05/25 12:17:46.000.001,C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\Unit1.pas=C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\view\ProPDV.View.FinalizarVenda.pas</Transaction>
+    <Transaction>2023/05/25 12:17:46.000.001,C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\Unit1.dfm=C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\view\ProPDV.View.FinalizarVenda.dfm</Transaction>
+    <Transaction>2023/05/25 16:49:09.000.072,=C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\Unit1.pas</Transaction>
+    <Transaction>2023/05/25 16:54:34.000.055,C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\view\ProPDV.View.FramePix.dfm=C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\Unit1.dfm</Transaction>
+    <Transaction>2023/05/25 16:54:34.000.055,C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\view\ProPDV.View.FramePix.pas=C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\Unit1.pas</Transaction>
+    <Transaction>2023/05/26 13:16:42.000.625,C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\view\ProPDV.View.FrameDinheiro.dfm=C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\view\ProPDV.View.FramePix.dfm</Transaction>
+    <Transaction>2023/05/26 13:16:42.000.625,C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\view\ProPDV.View.FrameDinheiro.pas=C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\view\ProPDV.View.FramePix.pas</Transaction>
+    <Transaction>2023/05/26 13:17:12.000.636,C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\view\ProPDV.View.FrameCartao.pas=C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\view\ProPDV.View.FrameDinheiro.pas</Transaction>
+    <Transaction>2023/05/26 13:17:12.000.636,C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\view\ProPDV.View.FrameCartao.dfm=C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\view\ProPDV.View.FrameDinheiro.dfm</Transaction>
+    <Transaction>2023/05/26 13:17:37.000.720,C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\view\ProPDV.View.FramePix.pas=C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\view\ProPDV.View.FrameCartao.pas</Transaction>
+    <Transaction>2023/05/26 13:17:37.000.720,C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\view\ProPDV.View.FramePix.dfm=C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\view\ProPDV.View.FrameCartao.dfm</Transaction>
+    <Transaction>2023/05/26 13:18:37.000.829,=C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\Unit1.pas</Transaction>
+    <Transaction>2023/05/26 13:18:50.000.805,C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\Unit1.dfm=C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\view\ProPDV.View.FrameCartao.dfm</Transaction>
+    <Transaction>2023/05/26 13:18:50.000.805,C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\Unit1.pas=C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\view\ProPDV.View.FrameCartao.pas</Transaction>
+    <Transaction>2023/05/26 13:19:05.000.648,=C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\Unit2.pas</Transaction>
+    <Transaction>2023/05/26 13:19:14.000.887,C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\Unit2.dfm=C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\view\ProPDV.View.FrameDinheiro.dfm</Transaction>
+    <Transaction>2023/05/26 13:19:14.000.887,C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\Unit2.pas=C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\view\ProPDV.View.FrameDinheiro.pas</Transaction>
+    <Transaction>2023/05/26 16:00:41.000.758,=C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\Unit1.pas</Transaction>
+    <Transaction>2023/05/26 16:01:56.000.428,C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\Unit1.dfm=C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\view\ProPDV.View.IdentificarCliente.dfm</Transaction>
+    <Transaction>2023/05/26 16:01:56.000.428,C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\Unit1.pas=C:\Users\Usuario\OneDrive\Desktop\ESTUDOS\Delphi\Projeto PDV\view\ProPDV.View.IdentificarCliente.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="view"/>
+    <File Path="view\ProjetoPDV.View.Principal.pas"/>
+    <File Path="view\ProjetoPDV.View.Principal.dfm"/>
+    <File Path="view\ProPDV.View.FinalizarVenda.pas"/>
+    <File Path="view\ProPDV.View.FinalizarVenda.dfm"/>
+    <File Path="view\ProPDV.View.Login.pas"/>
+    <File Path="view\ProPDV.View.Login.dfm"/>
+    <File Path="view\ProPDV.View.FramePix.pas"/>
+    <File Path="view\ProPDV.View.FramePix.dfm"/>
+    <File Path="view\ProPDV.View.FrameCartao.pas"/>
+    <File Path="view\ProPDV.View.FrameCartao.dfm"/>
+    <File Path="view\ProPDV.View.FrameDinheiro.pas"/>
+    <File Path="view\ProPDV.View.FrameDinheiro.dfm"/>
+    <File Path="view\ProPDV.View.IdentificarCliente.pas"/>
+    <File Path="view\ProPDV.View.IdentificarCliente.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>
