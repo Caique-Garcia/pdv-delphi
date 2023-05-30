@@ -30,6 +30,7 @@ object FormIdentificarCliente: TFormIdentificarCliente
     Align = alClient
     Alignment = taRightJustify
     BevelOuter = bvNone
+    Color = clBtnHighlight
     Font.Charset = DEFAULT_CHARSET
     Font.Color = 4998170
     Font.Height = -11
@@ -38,10 +39,6 @@ object FormIdentificarCliente: TFormIdentificarCliente
     ParentBackground = False
     ParentFont = False
     TabOrder = 0
-    ExplicitLeft = 104
-    ExplicitTop = 120
-    ExplicitWidth = 433
-    ExplicitHeight = 193
     object Panel2: TPanel
       Left = 0
       Top = 0
@@ -59,8 +56,6 @@ object FormIdentificarCliente: TFormIdentificarCliente
       ParentBackground = False
       ParentFont = False
       TabOrder = 0
-      ExplicitTop = -3
-      ExplicitWidth = 433
     end
     object Panel3: TPanel
       AlignWithMargins = True
@@ -75,15 +70,13 @@ object FormIdentificarCliente: TFormIdentificarCliente
       Align = alTop
       BevelOuter = bvNone
       TabOrder = 1
-      ExplicitTop = 51
-      ExplicitWidth = 433
       object Label1: TLabel
         AlignWithMargins = True
-        Left = 100
+        Left = 50
         Top = 0
         Width = 76
         Height = 30
-        Margins.Left = 100
+        Margins.Left = 50
         Margins.Top = 0
         Margins.Right = 0
         Margins.Bottom = 0
@@ -95,32 +88,41 @@ object FormIdentificarCliente: TFormIdentificarCliente
         Font.Name = 'Segoe UI'
         Font.Style = []
         ParentFont = False
+        ExplicitLeft = 100
         ExplicitHeight = 21
       end
-      object edtcpfcnpj: TEdit
+      object Shape4: TShape
         AlignWithMargins = True
-        Left = 191
+        Left = 141
         Top = 0
-        Width = 121
+        Width = 221
         Height = 30
         Margins.Left = 15
         Margins.Top = 0
-        Margins.Right = 100
+        Margins.Right = 50
         Margins.Bottom = 0
         Align = alClient
-        Alignment = taRightJustify
+        Pen.Color = 4998170
+        Shape = stRoundRect
+        ExplicitLeft = 208
+        ExplicitTop = 8
+        ExplicitWidth = 65
+        ExplicitHeight = 65
+      end
+      object edtCpf: TEdit
+        Left = 153
+        Top = 8
+        Width = 192
+        Height = 19
+        BevelOuter = bvNone
         BorderStyle = bsNone
-        Color = clBtnFace
         Font.Charset = DEFAULT_CHARSET
         Font.Color = 4998170
-        Font.Height = -16
+        Font.Height = -13
         Font.Name = 'Segoe UI'
         Font.Style = []
         ParentFont = False
         TabOrder = 0
-        Text = '000.000.000-00'
-        OnClick = edtcpfcnpjClick
-        ExplicitWidth = 142
       end
     end
     object Panel4: TPanel
@@ -136,14 +138,13 @@ object FormIdentificarCliente: TFormIdentificarCliente
       Align = alTop
       BevelOuter = bvNone
       TabOrder = 2
-      ExplicitWidth = 433
       object Label2: TLabel
         AlignWithMargins = True
-        Left = 100
+        Left = 50
         Top = 0
         Width = 50
         Height = 30
-        Margins.Left = 100
+        Margins.Left = 50
         Margins.Top = 0
         Margins.Right = 0
         Margins.Bottom = 0
@@ -155,33 +156,41 @@ object FormIdentificarCliente: TFormIdentificarCliente
         Font.Name = 'Segoe UI'
         Font.Style = []
         ParentFont = False
+        ExplicitLeft = 100
         ExplicitHeight = 21
       end
-      object edtNome: TEdit
+      object Shape3: TShape
         AlignWithMargins = True
-        Left = 165
+        Left = 115
         Top = 0
-        Width = 147
+        Width = 247
         Height = 30
         Margins.Left = 15
         Margins.Top = 0
-        Margins.Right = 100
+        Margins.Right = 50
         Margins.Bottom = 0
         Align = alClient
-        Alignment = taRightJustify
+        Pen.Color = 4998170
+        Shape = stRoundRect
+        ExplicitLeft = 208
+        ExplicitTop = 8
+        ExplicitWidth = 65
+        ExplicitHeight = 65
+      end
+      object edtNome: TEdit
+        Left = 131
+        Top = 8
+        Width = 216
+        Height = 19
+        BevelOuter = bvNone
         BorderStyle = bsNone
-        Color = clBtnFace
         Font.Charset = DEFAULT_CHARSET
         Font.Color = 4998170
-        Font.Height = -16
+        Font.Height = -13
         Font.Name = 'Segoe UI'
         Font.Style = []
         ParentFont = False
         TabOrder = 0
-        Text = 'XXXXX XXXXX XXXXX'
-        OnClick = edtNomeClick
-        ExplicitLeft = 191
-        ExplicitWidth = 142
       end
     end
     object Panel5: TPanel
@@ -197,9 +206,6 @@ object FormIdentificarCliente: TFormIdentificarCliente
       Align = alClient
       BevelOuter = bvNone
       TabOrder = 3
-      ExplicitTop = 124
-      ExplicitWidth = 433
-      ExplicitHeight = 29
       object pnlBtnLogin: TPanel
         AlignWithMargins = True
         Left = 50
@@ -214,8 +220,6 @@ object FormIdentificarCliente: TFormIdentificarCliente
         BevelOuter = bvNone
         ParentBackground = False
         TabOrder = 0
-        ExplicitLeft = 0
-        ExplicitHeight = 9
         object Shape1: TShape
           Left = 0
           Top = 0
@@ -264,8 +268,6 @@ object FormIdentificarCliente: TFormIdentificarCliente
         BevelOuter = bvNone
         ParentBackground = False
         TabOrder = 1
-        ExplicitLeft = 0
-        ExplicitHeight = 9
         object Shape2: TShape
           Left = 0
           Top = 0

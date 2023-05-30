@@ -8,7 +8,8 @@ uses
   ProPDV.View.FramePix in 'view\ProPDV.View.FramePix.pas' {framePix: TFrame},
   ProPDV.View.FrameCartao in 'view\ProPDV.View.FrameCartao.pas' {FrameCartao: TFrame},
   ProPDV.View.FrameDinheiro in 'view\ProPDV.View.FrameDinheiro.pas' {FrameDinheiro: TFrame},
-  ProPDV.View.IdentificarCliente in 'view\ProPDV.View.IdentificarCliente.pas' {FormIdentificarCliente};
+  ProPDV.View.IdentificarCliente in 'view\ProPDV.View.IdentificarCliente.pas' {FormIdentificarCliente},
+  ProPDV.View.ImportarCliente in 'view\ProPDV.View.ImportarCliente.pas' {formImportarCliente};
 
 {$R *.res}
 

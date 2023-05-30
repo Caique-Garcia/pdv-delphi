@@ -512,7 +512,7 @@ object formPrincipalPDV: TformPrincipalPDV
           Left = 10
           Top = 10
           Width = 382
-          Height = 362
+          Height = 334
           Align = alClient
           BorderStyle = bsNone
           Options = [dgTitles, dgRowLines, dgTabs, dgRowSelect, dgTitleHotTrack]
@@ -522,6 +522,24 @@ object formPrincipalPDV: TformPrincipalPDV
           TitleFont.Height = -11
           TitleFont.Name = 'Tahoma'
           TitleFont.Style = []
+        end
+        object pnlDadosCliente: TPanel
+          Left = 10
+          Top = 344
+          Width = 382
+          Height = 28
+          Align = alBottom
+          BevelOuter = bvNone
+          Color = 4998170
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clHighlightText
+          Font.Height = -13
+          Font.Name = 'Segoe UI'
+          Font.Style = []
+          ParentBackground = False
+          ParentFont = False
+          TabOrder = 1
+          Visible = False
         end
       end
     end
@@ -571,21 +589,6 @@ object formPrincipalPDV: TformPrincipalPDV
           ParentFont = False
           TabOrder = 0
           OnClick = pnlIdentificarClienteClick
-          object Shape2: TShape
-            Left = 0
-            Top = 0
-            Width = 180
-            Height = 41
-            Align = alClient
-            Brush.Style = bsClear
-            Pen.Style = psClear
-            Shape = stRoundRect
-            OnContextPopup = Shape2ContextPopup
-            ExplicitLeft = 80
-            ExplicitTop = 16
-            ExplicitWidth = 65
-            ExplicitHeight = 65
-          end
         end
         object pnlFecharCaixa: TPanel
           Left = 10
@@ -605,20 +608,6 @@ object formPrincipalPDV: TformPrincipalPDV
           ParentBackground = False
           ParentFont = False
           TabOrder = 1
-          object Shape1: TShape
-            Left = 0
-            Top = 0
-            Width = 180
-            Height = 41
-            Align = alClient
-            Brush.Style = bsClear
-            Pen.Style = psClear
-            Shape = stRoundRect
-            ExplicitLeft = 80
-            ExplicitTop = 16
-            ExplicitWidth = 65
-            ExplicitHeight = 65
-          end
         end
         object pnlSuprimento: TPanel
           Left = 10
@@ -638,20 +627,6 @@ object formPrincipalPDV: TformPrincipalPDV
           ParentBackground = False
           ParentFont = False
           TabOrder = 2
-          object Shape5: TShape
-            Left = 0
-            Top = 0
-            Width = 180
-            Height = 41
-            Align = alClient
-            Brush.Style = bsClear
-            Pen.Style = psClear
-            Shape = stRoundRect
-            ExplicitLeft = 80
-            ExplicitTop = 16
-            ExplicitWidth = 65
-            ExplicitHeight = 65
-          end
         end
         object pnlSangria: TPanel
           Left = 10
@@ -671,20 +646,6 @@ object formPrincipalPDV: TformPrincipalPDV
           ParentBackground = False
           ParentFont = False
           TabOrder = 3
-          object Shape6: TShape
-            Left = 0
-            Top = 0
-            Width = 180
-            Height = 41
-            Align = alClient
-            Brush.Style = bsClear
-            Pen.Style = psClear
-            Shape = stRoundRect
-            ExplicitLeft = 80
-            ExplicitTop = 16
-            ExplicitWidth = 65
-            ExplicitHeight = 65
-          end
         end
         object pnlDesconto: TPanel
           Left = 10
@@ -704,17 +665,26 @@ object formPrincipalPDV: TformPrincipalPDV
           ParentBackground = False
           ParentFont = False
           TabOrder = 4
-          object Shape4: TShape
-            Left = 0
-            Top = 0
-            Width = 180
-            Height = 41
-            Align = alClient
-            Brush.Style = bsClear
-            Pen.Style = psClear
-            Shape = stRoundRect
-            ExplicitTop = -6
-          end
+        end
+        object pnlImportarCliente: TPanel
+          Left = 10
+          Top = 215
+          Width = 180
+          Height = 41
+          Margins.Bottom = 10
+          Align = alTop
+          BevelOuter = bvNone
+          Caption = 'Importar Cliente (F9)'
+          Color = clWhite
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -13
+          Font.Name = 'Segoe UI'
+          Font.Style = []
+          ParentBackground = False
+          ParentFont = False
+          TabOrder = 5
+          OnClick = pnlImportarClienteClick
         end
       end
     end

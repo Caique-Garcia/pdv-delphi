@@ -6,7 +6,7 @@ uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls, Data.DB,
   Vcl.Grids, Vcl.DBGrids, Vcl.Imaging.pngimage, ProPDV.View.Login, Vcl.WinXCtrls,
-  ProPDV.View.FinalizarVenda;
+  ProPDV.View.FinalizarVenda, ProPDV.View.ImportarCliente;
 
 type
   TformPrincipalPDV = class(TForm)
@@ -40,25 +40,21 @@ type
     SplitViewFunc: TSplitView;
     pnlMaisFunc: TPanel;
     pnlIdentificarCliente: TPanel;
-    Shape2: TShape;
     pnlFecharCaixa: TPanel;
-    Shape1: TShape;
     pnlDesconto: TPanel;
-    Shape4: TShape;
     pnlSuprimento: TPanel;
-    Shape5: TShape;
     pnlSangria: TPanel;
-    Shape6: TShape;
     SplitViewPagamentos: TSplitView;
     pnlPagamentos: TPanel;
+    pnlDadosCliente: TPanel;
+    pnlImportarCliente: TPanel;
     procedure FormShow(Sender: TObject);
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
     procedure btnMaisFuncClick(Sender: TObject);
     procedure btnFinalizarClick(Sender: TObject);
     procedure pnlIdentificarClienteClick(Sender: TObject);
-    procedure Shape2ContextPopup(Sender: TObject; MousePos: TPoint;
-      var Handled: Boolean);
+    procedure pnlImportarClienteClick(Sender: TObject);
   private
     { Private declarations }
     procedure ShowSplitViewFunc(Value: TSplitView);
@@ -119,13 +115,27 @@ var
 begin
   LIdentificarCliente := TFormIdentificarCliente.Create(Nil);
   LIdentificarCliente.Parent := pnlContainer;
+  //Passando para o método uma procedura com dois parametros string
+  LIdentificarCliente.DadosDoCliente(procedure(ACliente, ACpf: string)
+  begin
+    //Se cliente o cliente não for vazio
+    if not Acliente.IsEmpty then
+     aCliente := 'Cliente: ' + aCliente;
+
+    if not ACpf.IsEmpty then
+     ACpf :='CPF: ' + ACpf;
+
+    if (( not Acliente.IsEmpty) or (not ACpf.IsEmpty)) then
+      pnlDadosCliente.Visible := True;
+      pnlDadosCliente.Caption := ACliente + '  ' + ACpf;
+
+  end);
   LIdentificarCliente.Show;
 end;
 
-procedure TformPrincipalPDV.Shape2ContextPopup(Sender: TObject;
-  MousePos: TPoint; var Handled: Boolean);
+procedure TformPrincipalPDV.pnlImportarClienteClick(Sender: TObject);
 begin
-  pnlIdentificarClienteClick(Self);
+   TformImportarCliente.New(Self).Embed(pnlContainer).Show;
 end;
 
 procedure TformPrincipalPDV.ShowFinalizarvendas;

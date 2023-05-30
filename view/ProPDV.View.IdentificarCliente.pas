@@ -4,7 +4,8 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls, Vcl.Buttons;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls, Vcl.Buttons,
+  ProjetoPDV.View.Principal;
 
 type
   TFormIdentificarCliente = class(TForm)
@@ -12,10 +13,8 @@ type
     Panel2: TPanel;
     Panel3: TPanel;
     Label1: TLabel;
-    edtcpfcnpj: TEdit;
     Panel4: TPanel;
     Label2: TLabel;
-    edtNome: TEdit;
     Panel5: TPanel;
     pnlBtnLogin: TPanel;
     Shape1: TShape;
@@ -23,15 +22,19 @@ type
     Panel6: TPanel;
     Shape2: TShape;
     btnConfirmar: TSpeedButton;
-    procedure edtcpfcnpjClick(Sender: TObject);
-    procedure edtNomeClick(Sender: TObject);
+    Shape3: TShape;
+    edtNome: TEdit;
+    Shape4: TShape;
+    edtCpf: TEdit;
     procedure FormResize(Sender: TObject);
     procedure btnConfirmarClick(Sender: TObject);
   private
-    { Private declarations }
+    //atributo recebe um método que retorna duas strings
+    FProc: TProc<string, string>;
     procedure Redimencionar(Sender: TPanel);
   public
-    { Public declarations }
+    //Função pra passar o método pro FProc
+    function DadosDoCliente(Value: TProc<string, string>): TFormIdentificarCliente;
   end;
 
 var
@@ -43,17 +46,20 @@ implementation
 
 procedure TFormIdentificarCliente.btnConfirmarClick(Sender: TObject);
 begin
+  if Assigned(FProc) then
+  begin
+    FProc(edtNome.Text,edtCpf.Text);
+  end;
+  if formPrincipalPDV.SplitViewFunc.Opened then
+    formPrincipalPDV.SplitViewFunc.Opened := false;
   self.Close;
 end;
 
-procedure TFormIdentificarCliente.edtcpfcnpjClick(Sender: TObject);
+function TFormIdentificarCliente.DadosDoCliente(
+  Value: TProc<string, string>): TFormIdentificarCliente;
 begin
-  edtcpfcnpj.text := '';
-end;
-
-procedure TFormIdentificarCliente.edtNomeClick(Sender: TObject);
-begin
-  edtNOME.text := '';
+   Result := Self;
+   FProc:= Value;
 end;
 
 procedure TFormIdentificarCliente.FormResize(Sender: TObject);
